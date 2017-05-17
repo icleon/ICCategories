@@ -82,7 +82,7 @@
     XCTAssertEqual(foregroundColor, attribues[NSForegroundColorAttributeName]);
     XCTAssertEqual(backgroundColor, attribues[NSBackgroundColorAttributeName]);
     XCTAssertEqual(ligature, [attribues[NSLigatureAttributeName] integerValue]);
-    XCTAssertEqual(kern, [attribues[NSKernAttributeName] floatValue]);
+    XCTAssertEqualWithAccuracy(kern, [attribues[NSKernAttributeName] floatValue], 0.000001);
     XCTAssertEqual(strikethroughStyle, [attribues[NSStrikethroughStyleAttributeName] integerValue]);
     XCTAssertEqual(underlineStyle, [attribues[NSUnderlineStyleAttributeName] integerValue]);
     XCTAssertEqual(strokeColor, attribues[NSStrokeColorAttributeName]);
@@ -91,11 +91,11 @@
     XCTAssertEqual(textEffect, attribues[NSTextEffectAttributeName]);
     XCTAssertEqual(textAttachment, attribues[NSAttachmentAttributeName]);
     XCTAssertEqual(link, attribues[NSLinkAttributeName]);
-    XCTAssertEqual(baselineOffset, [attribues[NSBaselineOffsetAttributeName] floatValue]);
+    XCTAssertEqualWithAccuracy(baselineOffset, [attribues[NSBaselineOffsetAttributeName] floatValue], 0.000001);
     XCTAssertEqual(underlineColor, attribues[NSUnderlineColorAttributeName]);
     XCTAssertEqual(strikethroughColor, attribues[NSStrikethroughColorAttributeName]);
-    XCTAssertEqual(obliqueness, [attribues[NSObliquenessAttributeName] floatValue]);
-    XCTAssertEqual(expansion, [attribues[NSExpansionAttributeName] floatValue]);
+    XCTAssertEqualWithAccuracy(obliqueness, [attribues[NSObliquenessAttributeName] floatValue], 0.000001);
+    XCTAssertEqualWithAccuracy(expansion, [attribues[NSExpansionAttributeName] floatValue], 0.000001);
     XCTAssertEqual(writingDirection, attribues[NSWritingDirectionAttributeName]);
     XCTAssertEqual(verticalGlyphForm, [attribues[NSVerticalGlyphFormAttributeName] integerValue]);
 }
