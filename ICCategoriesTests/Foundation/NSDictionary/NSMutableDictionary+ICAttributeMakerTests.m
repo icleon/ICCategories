@@ -55,27 +55,27 @@
     NSInteger verticalGlyphForm         = 1;
     
     NSMutableDictionary *attribues = [NSMutableDictionary new]
-    .font(font)
-    .paragraphStyle(paragraphStyle)
-    .foregroundColor(foregroundColor)
-    .backgroundColor(backgroundColor)
-    .ligature(ligature)
-    .kern(kern)
-    .strikethroughStyle(strikethroughStyle)
-    .underlineStyle(underlineStyle)
-    .strokeColor(strokeColor)
-    .strokeWidth(strokeWidth)
-    .shadow(shadow)
-    .textEffect(textEffect)
-    .attachment(textAttachment)
-    .link(link)
-    .baselineOffset(baselineOffset)
-    .underlineColor(underlineColor)
-    .strikethroughColor(strikethroughColor)
-    .obliqueness(obliqueness)
-    .expansion(expansion)
-    .writingDirection(writingDirection)
-    .verticalGlyphForm(verticalGlyphForm);
+    .ic_font(font)
+    .ic_paragraphStyle(paragraphStyle)
+    .ic_foregroundColor(foregroundColor)
+    .ic_backgroundColor(backgroundColor)
+    .ic_ligature(ligature)
+    .ic_kern(kern)
+    .ic_strikethroughStyle(strikethroughStyle)
+    .ic_underlineStyle(underlineStyle)
+    .ic_strokeColor(strokeColor)
+    .ic_strokeWidth(strokeWidth)
+    .ic_shadow(shadow)
+    .ic_textEffect(textEffect)
+    .ic_attachment(textAttachment)
+    .ic_link(link)
+    .ic_baselineOffset(baselineOffset)
+    .ic_underlineColor(underlineColor)
+    .ic_strikethroughColor(strikethroughColor)
+    .ic_obliqueness(obliqueness)
+    .ic_expansion(expansion)
+    .ic_writingDirection(writingDirection)
+    .ic_verticalGlyphForm(verticalGlyphForm);
     
     XCTAssertEqual(font, attribues[NSFontAttributeName]);
     XCTAssertEqual(paragraphStyle, attribues[NSParagraphStyleAttributeName]);
