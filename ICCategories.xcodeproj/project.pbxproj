@@ -12,6 +12,8 @@
 		354CF72A1ECB030E002ECBF8 /* NSMutableDictionary+ICAttributeMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 354CF7281ECB030E002ECBF8 /* NSMutableDictionary+ICAttributeMaker.h */; };
 		354CF72B1ECB030E002ECBF8 /* NSMutableDictionary+ICAttributeMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 354CF7291ECB030E002ECBF8 /* NSMutableDictionary+ICAttributeMaker.m */; };
 		354CF72F1ECB040E002ECBF8 /* NSMutableDictionary+ICAttributeMakerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 354CF72E1ECB040E002ECBF8 /* NSMutableDictionary+ICAttributeMakerTests.m */; };
+		35A8D4661ECEBF370067F7C4 /* NSObject+ICBlocksPerform.h in Headers */ = {isa = PBXBuildFile; fileRef = 35A8D4641ECEBF370067F7C4 /* NSObject+ICBlocksPerform.h */; };
+		35A8D4671ECEBF370067F7C4 /* NSObject+ICBlocksPerform.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A8D4651ECEBF370067F7C4 /* NSObject+ICBlocksPerform.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +35,8 @@
 		354CF7281ECB030E002ECBF8 /* NSMutableDictionary+ICAttributeMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+ICAttributeMaker.h"; sourceTree = "<group>"; };
 		354CF7291ECB030E002ECBF8 /* NSMutableDictionary+ICAttributeMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+ICAttributeMaker.m"; sourceTree = "<group>"; };
 		354CF72E1ECB040E002ECBF8 /* NSMutableDictionary+ICAttributeMakerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+ICAttributeMakerTests.m"; sourceTree = "<group>"; };
+		35A8D4641ECEBF370067F7C4 /* NSObject+ICBlocksPerform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ICBlocksPerform.h"; sourceTree = "<group>"; };
+		35A8D4651ECEBF370067F7C4 /* NSObject+ICBlocksPerform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ICBlocksPerform.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,7 @@
 		354CF7261ECB02FF002ECBF8 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
+				35A8D4631ECEBE810067F7C4 /* NSObject */,
 				354CF7271ECB02FF002ECBF8 /* NSDictionary */,
 			);
 			path = Foundation;
@@ -124,6 +129,15 @@
 			path = NSDictionary;
 			sourceTree = "<group>";
 		};
+		35A8D4631ECEBE810067F7C4 /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				35A8D4641ECEBF370067F7C4 /* NSObject+ICBlocksPerform.h */,
+				35A8D4651ECEBF370067F7C4 /* NSObject+ICBlocksPerform.m */,
+			);
+			path = NSObject;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -133,6 +147,7 @@
 			files = (
 				354CF7161ECAFDF3002ECBF8 /* ICCategories.h in Headers */,
 				354CF72A1ECB030E002ECBF8 /* NSMutableDictionary+ICAttributeMaker.h in Headers */,
+				35A8D4661ECEBF370067F7C4 /* NSObject+ICBlocksPerform.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				354CF72B1ECB030E002ECBF8 /* NSMutableDictionary+ICAttributeMaker.m in Sources */,
+				35A8D4671ECEBF370067F7C4 /* NSObject+ICBlocksPerform.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -2,7 +2,7 @@
 //  NSMutableDictionary+ICAttributeMaker.h
 //  GarminTest
 //
-//  Created by leon on 12/05/2017.
+//  Created by icleon on 12/05/2017.
 //  Copyright © 2017 icleon. All rights reserved.
 //
 
